@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+	overflow:auto;
+	padding-bottom:170px; /* this needs to be bigger than footer height*/
+}
+
+#footer {
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	padding-top:20px;
+	background-color: #ccc;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+#login-tabs .nav-tabs {
+	margin-bottom: 0;
+}
+#login-tabs .tab-content {
+	padding: 10px 20px;
+	border: 1px solid #DDD;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+}

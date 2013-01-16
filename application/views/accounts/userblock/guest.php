@@ -1,0 +1,1 @@
+<li><a href="/login"><?=__('Login')?></a></li>
