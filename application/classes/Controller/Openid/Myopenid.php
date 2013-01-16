@@ -1,8 +1,8 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-class Controller_OpenID_MyOpenID extends Controller_OpenID {
+class Controller_Openid_Myopenid extends Controller_Openid {
 
-	protected $_provider = 'MyOpenID';
+	protected $_provider = 'Myopenid';
 
 	public $login_template = 'auth/openid/myopenid';
 

@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-class Controller_OAuth_Yahoo extends Controller_OAuth {
+class Controller_Oauth_Yahoo extends Controller_Oauth {
 
 	/**
 	 * @var OAuth_Provider_Yahoo

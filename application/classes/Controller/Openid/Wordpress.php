@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-class Controller_OpenID_Wordpress extends Controller_OpenID {
+class Controller_Openid_Wordpress extends Controller_Openid {
 
 	protected $_provider = 'Wordpress';
 

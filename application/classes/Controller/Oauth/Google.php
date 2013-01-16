@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-class Controller_OAuth_Google extends Controller_OAuth2 {
+class Controller_Oauth_Google extends Controller_Oauth2 {
 
 	/**
 	 * @var  OAuth2_Provider_Google

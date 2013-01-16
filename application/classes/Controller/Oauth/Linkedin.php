@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-class Controller_OAuth_LinkedIn extends Controller_OAuth {
+class Controller_Oauth_Linkedin extends Controller_Oauth {
 
 	public $name = 'Linkedin';
 

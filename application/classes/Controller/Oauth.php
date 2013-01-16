@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
-abstract class Controller_OAuth extends Controller_Account {
+abstract class Controller_Oauth extends Controller_Account {
 
 	/**
 	 * @var  OAuth
