@@ -2,6 +2,5 @@
 
 class Controller_Oauth_Yandex extends Controller_Oauth2 {
 
-	public $name = 'yandex';
-
+	public $name = 'Yandex';
 }

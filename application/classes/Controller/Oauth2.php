@@ -33,7 +33,7 @@ abstract class Controller_Oauth2 extends Controller_Account {
 
 		return array(
 			// provider name
-			'oauth2.'.$this->name,
+			'OAuth2.'.$this->name,
 			// access token
 			$this->_token,
 		);
@@ -61,7 +61,7 @@ abstract class Controller_Oauth2 extends Controller_Account {
 	{
 		parent::before();
 		$this->_oauth = new OAuth2;
-		$this->_consumer = OAuth2_Client::factory(Kohana::$config->load('oauth.'.strtolower($this->name)));
+		$this->_consumer = OAuth2_Client::factory(Kohana::$config->load('oauth.' . $this->name));
 		$this->_provider = $this->_oauth->provider($this->name);
 	}
 
