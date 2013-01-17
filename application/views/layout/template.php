@@ -5,7 +5,7 @@
 	<link href="/media/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="/media/css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="/media/css/layout.css" rel="stylesheet">
-	<? foreach($_css as $css) { echo html::style($css) . PHP_EOL; } ?>
+	<? foreach($_css as $css) { echo HTML::style($css) . PHP_EOL; } ?>
 </head>
 <body>
 	<div id="wrap">
